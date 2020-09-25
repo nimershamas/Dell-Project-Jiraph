@@ -514,6 +514,7 @@ function ChangesInJiraTickets() {
 
           <div className="ModificationByField__Filters__Header">
             <div className={showFilters ? 'filtersPop' : 'none'}>
+            <h5>Select Filter To View</h5>
               <Select
                 name="selectFilter"
                 id="selectFilter"
@@ -533,6 +534,7 @@ function ChangesInJiraTickets() {
                                  </button>
 
               <form >
+              <h5 id="createFilter">Create Filter</h5>
                 <input className="filter2-item__ModificationByField"
                   type="text"
                   name="filterName"
