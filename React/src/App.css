@@ -12,12 +12,12 @@
   grid-template-columns: 11vw auto;
 }
 
-
+/* 
 @media screen and (max-width: 900px) {
   .app {
   grid-template-columns: 5.5vw auto;
   }
-}
+} */
 
 .mainPage{
   margin-left:11vw;
@@ -25,12 +25,12 @@
 }
 
 
-
+/* 
 @media screen and (max-width: 800px) {
   .app {
   grid-template-columns: 5vw auto;
   }
-}
+} */
 
 .filtersPop{
   position: absolute;
